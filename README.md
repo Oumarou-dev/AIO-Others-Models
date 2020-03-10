@@ -1,9 +1,9 @@
 # AIO-Others-Models
 ### Ce Repository contient du code jupyter notebook pour  calculer les AIO d'un modèle au format sbml:
 
-- Il lit un fichier sbml dans le dossier Escherichia (Exemple: Escherichia/Escherichia_albertii_KF1.xml)
-- Il lit un fichier .tsv contenant les flux de nutrition d'un régime alimentaire
-- IL insère les flux du régime alimentaire que la bactérie peut éventuellement assimilée
+- Il lit un fichier sbml dans le dossier Escherichia contenant une souche de E.coli provenant de vhm (https://www.vmh.life/)
+- Il lit un fichier .tsv dans le dossier Diet contenant des régimes alimentaires provenant aussi de vhm
+- IL insère les flux du régime alimentaire que la bactérie peut éventuellement importer par rapport à un objectif fixé. Par exemple faire importer à la bactérie des éléments nutritifs du régime lui permettant de maximiser sa biomasse
 - Il permet de calculer une distribution extrémale par le FBA
 - Il calcule les AIO d'une distribution extrémale 
 
